@@ -1,0 +1,35 @@
+html {
+	font-family: source, sans-serif;
+	font-weight: normal;
+	height: 100%;
+	line-height: 1.2;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.body {
+	max-width: 2500px;
+	margin: 0 auto;
+	transition: filter 0.7s;
+
+	&.is-open {
+		filter: blur(4px);
+	}
+}
+
+.alert {
+	color: red;
+	text-align: center;
+}
+
+a {
+	color: @color-A;
+}
+
+strong {
+	font-family: source, sans-serif;
+	font-weight: normal;
+}

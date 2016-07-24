@@ -1,0 +1,33 @@
+.aboutme {
+	background: #fff;
+	padding: 24px;
+	overflow: hidden;
+	max-width: 700px;
+	margin: 0 auto;
+
+	.aboutme-text {
+		float: left;
+
+		@media (min-width: @xs) {
+			width: 60%;
+		}
+
+		p {
+			padding-right: 12px;
+		}
+	}
+
+	.aboutme-img {
+		display: block;
+		float: right;
+		max-width: 100%;
+
+		@media (min-width: @xs) {
+			width: 40%;
+		}
+	}
+
+	.js & {
+		display: none;
+	}
+}
