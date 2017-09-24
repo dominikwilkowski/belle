@@ -31,6 +31,7 @@ $(".js-collection").fancybox({
 		title : {
 			type : 'inside',
 		},
+		media: {},
 	},
 	afterShow: function() {
 		$('.js-body').addClass('is-open');

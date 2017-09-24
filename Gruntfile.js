@@ -277,15 +277,15 @@ module.exports = function(grunt) {
 				],
 			},
 
-			svg: {
-				files: [
-					'<%= SETTINGS.folder.svgs %>/*.svg',
-				],
-				tasks: [
-					'_svg',
-					'wakeup',
-				],
-			},
+			// svg: {
+			// 	files: [
+			// 		'<%= SETTINGS.folder.svgs %>/*.svg',
+			// 	],
+			// 	tasks: [
+			// 		'_svg',
+			// 		'wakeup',
+			// 	],
+			// },
 		},
 
 
@@ -331,7 +331,7 @@ module.exports = function(grunt) {
 		'font',
 		'_less',
 		'_js',
-		'_svg',
+		// '_svg',
 	]);
 
 
